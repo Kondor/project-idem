@@ -1,0 +1,420 @@
+@font-face {
+	font-family: 'BaronNeue';
+	src: url('../fonts/baronneue.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/baronneue.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/baronneue.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/baronneue.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/baronneue.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/baronneue.svg#baronneue') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lato_medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/lato_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/lato_medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/lato_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/lato_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/lato_medium.svg#lato_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('BaronNeueBold.eot');
+    src: local('Baron Neue Bold'), local('BaronNeueBold'),
+        url('BaronNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('BaronNeueBold.woff2') format('woff2'),
+        url('BaronNeueBold.woff') format('woff'),
+        url('BaronNeueBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('BaronNeueBlackItalic.eot');
+    src: local('Baron Neue Black Italic'), local('BaronNeueBlackItalic'),
+        url('BaronNeueBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('BaronNeueBlackItalic.woff2') format('woff2'),
+        url('BaronNeueBlackItalic.woff') format('woff'),
+        url('BaronNeueBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('BaronNeue.eot');
+    src: local('Baron Neue'), local('BaronNeue'),
+        url('BaronNeue.eot?#iefix') format('embedded-opentype'),
+        url('BaronNeue.woff2') format('woff2'),
+        url('BaronNeue.woff') format('woff'),
+        url('BaronNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('BaronNeueBlack.eot');
+    src: local('Baron Neue Black'), local('BaronNeueBlack'),
+        url('BaronNeueBlack.eot?#iefix') format('embedded-opentype'),
+        url('BaronNeueBlack.woff2') format('woff2'),
+        url('BaronNeueBlack.woff') format('woff'),
+        url('BaronNeueBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('BaronNeueBoldItalic.eot');
+    src: local('Baron Neue Bold Italic'), local('BaronNeueBoldItalic'),
+        url('BaronNeueBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BaronNeueBoldItalic.woff2') format('woff2'),
+        url('BaronNeueBoldItalic.woff') format('woff'),
+        url('BaronNeueBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('BaronNeueItalic.eot');
+    src: local('Baron Neue Italic'), local('BaronNeueItalic'),
+        url('BaronNeueItalic.eot?#iefix') format('embedded-opentype'),
+        url('BaronNeueItalic.woff2') format('woff2'),
+        url('BaronNeueItalic.woff') format('woff'),
+        url('BaronNeueItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    font-family: "Baron Neue";
+}
+
+.about__title {
+    padding: 60px 36px 50px 41px;
+}
+
+.about__text {
+    font-family: "Baron Neue";
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #333333;
+}
+
+.about__wrapper {
+    padding: 50px 36px 0 41px;
+    background: linear-gradient(to top, #ffffff 20%, #F4F5F5 80%);
+}
+
+.title {
+    font-family: "Lato";
+    font-size: 30px;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #303030;
+}
+
+.title > span, .title > sup {
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #303030;
+}
+
+.description {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #777777;
+}
+
+.about__description > .description {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #303030;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 115px;
+    margin-bottom: 66px;
+}
+
+.about__advantages {
+    flex-basis: 260px;
+}
+
+.about__description {
+    flex-basis: 319px;
+    height: 264px;
+}
+
+.about__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 20px;
+}
+
+.about__item--hidden {
+    display: none;
+}
+
+.wrap + .about__link {
+    display: inline-block;
+    font-family: "Baron Neue";
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #7A1B1B;
+    margin-bottom: 40px;
+    list-style: none;
+    text-decoration: none;
+    border-bottom: 2px solid #7A1B1B;
+    text-transform: uppercase;
+}
+
+.gallery {
+    padding-bottom: 42px;
+}
+
+.gallery__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 156px;
+    gap: 30px 30px;
+}
+
+.gallery__item {
+    position: relative;
+}
+
+.gallery__link {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery__item:first-child {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+
+.gallery__image > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__title {
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.map__title {
+    padding: 60px 40px 0 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.map__filter {
+    padding: 0 41px;
+    margin-bottom: 35px;
+}
+
+.map__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.map__item {
+    border: 1px solid #C79791;
+    border-radius: 20px;
+    justify-content: center;
+    font-family: "Lato";
+    font-size: 11px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+    color: #303030;
+    
+}
+
+.map__link {
+    text-decoration: none;
+    color: #303030;
+    text-transform: uppercase;
+    padding: 8px 20px;
+}
+
+.map__item::after {
+    content: '7';
+    margin-left: -10px;
+    margin-right: 16px;
+
+    font-family: "Lato";
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 700;
+    color: #7A1B1B;
+}
+
+
+.map__interactive {
+    overflow: hidden;
+    min-height: 450px;
+    padding: 0 41px;
+}
+
+svg, image {
+    width: 100%;
+    min-height: 450px;
+}
+
+.features {
+    padding: 40px 0 50px 40px;
+}
+
+.features__title {
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.slider {
+    max-width: 1400px;
+    position: relative;
+    /* padding: 0 0 50px 14px; */
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 36px;
+}
+
+.slider__item {
+    position: relative;
+    min-width: 294px;
+    min-height: 252px;
+}
+
+.slider__img {
+    margin-bottom: 20px;
+}
+
+.image {
+    display: block;
+    width: 91px;
+    height: 65px;
+}
+
+.slider__title {
+    display: block;
+    font-family: "Baron Neue";
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #08131f;
+}
+
+.slider__description {
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #08131f;
+    margin-bottom: 25px;
+}
+
+.slider__link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #7A1B1B;
+
+}
+
+.slider__arow {
+    display: flex;
+    width: 57px;
+    height: 14px;
+    gap: 32px;
+
+
+    position: absolute;
+    right: 40px;
+    top: -30px;
+}
+
+.slider__previous, .slider__next{
+    width: 100%;
+    height: 8px;
+    display: inline;
+    border: 1px;
+    color: #7A1B1B;
+    text-decoration: none;
+
+}

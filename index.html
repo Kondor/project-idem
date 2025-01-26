@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/mobile.css" media="screen and (min-width: 375px) and (max-width: 767px)">
+    <link rel="stylesheet" href="style/tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)">
+    <link rel="stylesheet" href="style/desktop.css" media="screen and (min-width: 1024px)">
+
+    <title></title>
+</head>
+<body>
+    <header></header>
+
+    <main class="main">
+        <section class="about">
+            <div class="about__title">
+                <h1 class="about__text">Knightsbridge private park - элитный район Лондона в центре Москвы</h1>
+            </div>
+
+            <div class="about__wrapper">
+                <div class="wrap">
+                    <div class="about__advantages">
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <h3 class="title">180 - 2048<span> м</span><sup>2</sup></h3>
+                                <p class="description">Площадь объектов</p>
+                            </li>
+                            <li class="about__item">
+                                <h3 class="title">499</h3>
+                                <p class="description">Парковочных мест</p>
+                            </li>
+                            <li class="about__item">
+                                <h3 class="title">10 мин</h3>
+                                <p class="description">До места фрунзенская</p>
+                            </li>
+                            <li class="about__item--hidden">
+                                <h3 class="title">2 га</h3>
+                                <p class="description">Площадь собственного парка</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="about__description">
+                        <p class="description">
+                            Жилой комплекс из четырех клубных домов класса де-люкс в английском стиле,
+                            расположенный в собственном парке площадью 3 га в районе Хамовники.
+                            Авторы интерьеров жилого копмлекса,и дизайна частного парка – дизайнеры мировой величины.
+                            Так, общественные зоны оформляет Дэвид Линли, племянник королевы Великобритании и глава компании LINLEY,
+                            а настоящий английский парк для жителей
+                        </p>
+                    </div>
+                </div>
+
+                <a class="about__link" href="#">Узнать подробнее</a>
+
+                <div class="gallery">
+                    <ul class="gallery__list">
+                        <li class="gallery__item">
+                            <a class="gallery__link" href="#">
+                                <picture class="gallery__image">
+                                    <source type="image/jpg" srcset="img/img1-large.jpg" media="(min-width: 1024px)">
+                                    <source type="image/jpg" srcset="img/img1-middle.jpg" media="(min-width: 768px)">
+                                    <img src="img/img1-small.jpg " alt="Img">
+                                </picture>
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a class="gallery__link" href="#">
+                                <picture class="gallery__image">
+                                    <source type="image/png" srcset="img/img2-large.png" media="(min-width: 1024px)">
+                                    <source type="image/png" srcset="img/img2-middle.png" media="(min-width: 768px)">
+                                    <img src="img/img2-small.png " alt="Img">
+                                </picture>
+                                <div class="gallery__title">Презентация ЖК Knightsbridge Private Рark</div>
+                            </a>
+                        </li>
+                        <li class="gallery__item" href="#">
+                            <a class="gallery__link">
+                                <picture class="gallery__image">
+                                    <source type="image/png" srcset="img/img3-large.png" media="(min-width: 1024px)">
+                                    <source type="image/png" srcset="img/img3-middle.png" media="(min-width: 768px)">
+                                    <img src="img/img3-small.png " alt="Img">
+                                </picture>
+                                <div class="gallery__title">Типы планировок апартаментов</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <div class="map__title">
+                <h2 class="map__text">На карте</h2>
+            </div>
+
+            <div class="map__filter">
+                <ul class="map__list">
+                    <li class="map__item"><a class="map__link" href="">Красота и здоровье</a></li>
+                    <li class="map__item"><a class="map__link" href="">Магазины</a></li>
+                    <li class="map__item"><a class="map__link" href="">Обучение</a></li>
+                    <li class="map__item"><a class="map__link" href="">Детсад</a></li>
+                    <li class="map__item"><a class="map__link" href="">Отдых, развлечения</a></li>
+                </ul>
+            </div>
+
+            <div class="map__interactive">
+                <svg id="map" preserveAspectRatio="none">
+                    <image id="image" href="img/Rectangle.svg">
+                </svg>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="features__title">
+                <h2 class="features__text">Особенности работы</h2>
+                <h3 class="features__text-description">Компании Saffari Estate</h3>
+            </div>
+
+            <div class="slider">
+                <div class="wrapper">
+                    <ul class="slider__list">
+                        <li class="slider__item">
+                            <div class="slider__img">
+                                <img src="img/Number_one.png" class="image" alt="Number_one">
+                            </div>
+                            <h3 class="slider__title">Большая база</h3>
+                            <p class="slider__description">
+                                У нас самая большая база актуальных и эксклюзивных объектов элитной недвижимости
+                            </p>
+                            <a class="slider__link">Посмотреть</a>
+                        </li>
+                        <li class="slider__item">
+                            <div class="slider__img">
+                                <img src="img/Number_two.png" class="image" alt="Number_one">
+                            </div>
+                            <h3 class="slider__title">Надежность</h3>
+                            <p class="slider__description">
+                                Мы гарантируем абсолютую безопасность и конфиденциальность по сделкам
+                            </p>
+                            <a class="slider__link">Узнать</a>
+                        </li>
+                        <li class="slider__item">
+                            <div class="slider__img">
+                                <img src="img/Number_three.png" class="image" alt="Number_one">
+                            </div>
+                            <h3 class="slider__title">Опыт</h3>
+                            <p class="slider__description">
+                                Наша команда имеет огромный опыт продаж недвижимости в элитном сегменте
+                            </p>
+                            <a class="slider__link">Изучить</a>
+                        </li>
+                        <li class="slider__item">
+                            <div class="slider__img">
+                                <img src="img/Number_four.png" class="image" alt="Number_one">
+                            </div>
+                            <h3 class="slider__title">Закрытые</h3>
+                            <p class="slider__description">
+                                Есть объекты, которые предлагаем только мы
+                            </p>
+                            <a class="slider__link">Получить</a>
+                        </li>
+                        <li class="slider__item"></li>
+                    </ul>
+                    <div class="slider__arow">
+                        <a href="#" class="slider__previous">&#10094;</a>
+                        <a href="#" class="slider__next">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
