@@ -278,7 +278,6 @@ body {
     text-align: center;
     font-weight: 400;
     color: #303030;
-    
 }
 
 .map__link {
@@ -325,7 +324,6 @@ svg, image {
 .slider {
     max-width: 1400px;
     position: relative;
-    /* padding: 0 0 50px 14px; */
 }
 
 .wrapper {

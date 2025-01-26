@@ -291,7 +291,6 @@ body {
     text-align: center;
     font-weight: 400;
     color: #303030;
-    
 }
 
 .map__link {
@@ -327,7 +326,6 @@ svg {
     padding: 0;
 }
 
-/* */
 .features {
     padding: 40px 0 50px 14px;
 }
@@ -362,7 +360,6 @@ svg {
     align-items: flex-start;
     justify-content: space-between;
     column-gap: 36px;
-    /* overflow: hidden; */
 }
 
 .slider__item {
@@ -402,7 +399,6 @@ svg {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    /* text-transform: uppercase; */
     color: #08131f;
     margin-bottom: 25px;
 }
